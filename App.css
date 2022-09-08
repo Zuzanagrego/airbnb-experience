@@ -1,0 +1,15 @@
+.hero {
+  margin: 50px auto;
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero img {
+  max-width: 50%;
+}
+
+.hero-text {
+  width: 100%;
+}
