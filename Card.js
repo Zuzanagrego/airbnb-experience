@@ -9,14 +9,14 @@ function Card(props) {
         ))}
 
       <div className="card-img">
-        <img src={`./images/${props.img}`} />
+        <img src={`./images/${props.coverImg}`} />
       </div>
 
       <div className="card-text">
         <p>
-          ⭐{props.rating}
+          ⭐{props.stats.rating}
           <span className="faded-text">
-            ({props.reviewCount}) | {props.location}
+            ({props.stats.reviewCount}) | {props.location}
           </span>
         </p>
         <p>{props.title}</p>

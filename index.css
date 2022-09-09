@@ -21,9 +21,3 @@ nav {
 nav img {
   max-height: 50px;
 }
-
-.card-holder {
-  margin: 100px;
-  display: flex;
-  justify-content: space-evenly;
-}
